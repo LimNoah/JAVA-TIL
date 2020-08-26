@@ -34,39 +34,39 @@ public class ThreeSixNineAdvanced {
             {
                 String sTmp = "";
                 sTmp = Integer.toString(i);
-                int nJjak = 0;
-                int nKoong = 0;
+                int nClap = 0;
+                int nClonk = 0;
                 for(int j = 0; j < sTmp.length(); j++)
                 {
                     if(sTmp.charAt(j) == '3' || sTmp.charAt(j) == '6' || sTmp.charAt(j) == '9')
-                        nJjak++;
+                        nClap++;
                     else if(sTmp.charAt(j) == '5')
-                        nKoong++;
+                        nClonk++;
                 }
-                if(nJjak > 0 || nKoong > 0){
-                    if(nJjak == 0){
-                        for (int k = 0; k < nKoong; k++)
+                if(nClap > 0 || nClonk > 0){
+                    if(nClap == 0){
+                        for (int k = 0; k < nClonk; k++)
                             System.out.print("쿵!");
                     }
-                    else if(nKoong == 0){
-                        for (int k = 0; k < nJjak; k++)
+                    else if(nClonk == 0){
+                        for (int k = 0; k < nClap; k++)
                             System.out.print("짝!");
                     }
                     else{
-                        if(nJjak > nKoong){
+                        if(nClap > nClonk){
                             String sJjakKoong = "짝!";
-                            for(int k = 0; k < nKoong; k++)
+                            for(int k = 0; k < nClonk; k++)
                                 sJjakKoong += "쿵!짝!";
                             System.out.print(sJjakKoong);
                         }
-                        else if(nJjak < nKoong){
+                        else if(nClap < nClonk){
                             String sJjakKoong = "쿵!";
-                            for(int k = 0; k < nJjak; k++)
+                            for(int k = 0; k < nClap; k++)
                                 sJjakKoong += "짝!쿵!";
                             System.out.print(sJjakKoong);
                         }
                         else {
-                            for(int k = 0; k < nJjak; k++)
+                            for(int k = 0; k < nClap; k++)
                                 System.out.print("짝!쿵!");
                         }
                     }
@@ -75,9 +75,6 @@ public class ThreeSixNineAdvanced {
                 else
                     System.out.println(i);
             }
-            else
-                continue;
         }
     }
-
 }
