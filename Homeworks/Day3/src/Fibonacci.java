@@ -16,18 +16,15 @@ import java.math.BigInteger;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        int seqLength = 100;
+        int seqLength = 50;
         // write codes here
         int result = Fibo(seqLength);// 무한루프 why?
         System.out.println(result);
     }
 
     public static int Fibo(int seqLength){
-
-        if(seqLength == 0)
-            return 0;
-        else if(seqLength == 1)
-            return 1;
+        if(seqLength <= 1)
+            return seqLength;
         else
             return Fibo(seqLength - 2) + Fibo(seqLength - 1);
     }
