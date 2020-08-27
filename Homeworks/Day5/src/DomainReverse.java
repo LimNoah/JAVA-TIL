@@ -17,6 +17,7 @@ public class DomainReverse {
         StringBuilder sbResult = new StringBuilder(string.length());
         int nPos = 0;
         int nDotPos = string.indexOf('.', nPos);
+
         if(nDotPos > 0){
             while(nDotPos >= 0){
                 StringBuilder sb = new StringBuilder(string.length());
@@ -26,8 +27,10 @@ public class DomainReverse {
                 sb.append(string.substring(nOriginPos, nDotPos));
                 sbResult.append(sb.reverse()).append(".");
                 nDotPos = string.indexOf('.', nPos);
+
                 if(nDotPos == -1 && string.length() > nPos){
                     StringBuilder sb2 = new StringBuilder(string.length());
+
                     sb2.append(string.substring(nPos));
                     sbResult.append(sb2.reverse());
                 }
