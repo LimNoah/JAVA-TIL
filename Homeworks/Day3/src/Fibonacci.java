@@ -16,17 +16,30 @@ import java.math.BigInteger;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        int seqLength = 50;
+        int seqLength = 100;
         // write codes here
-        int result = Fibo(seqLength);// 무한루프 why?
-        System.out.println(result);
+
+        Fibo(seqLength);
     }
 
     public static int Fibo(int seqLength){
         if(seqLength <= 1)
             return seqLength;
-        else
-            return Fibo(seqLength - 2) + Fibo(seqLength - 1);
+
+        int x = 0;
+        int y = 1;
+        int z = 1;
+
+        for(int i = 0; i < seqLength - 2; i++){
+            x = y;
+            y = z;
+            z = x + y;
+
+            System.out.print(z + " ");
+        }
+        return z;
+//        else
+//            return Fibo(seqLength - 2) + Fibo(seqLength - 1);
     }
     // 콘솔 창에 출력 값이 나오지 않음 ( => 자료형 크기의 문제? 재귀함수 구성 문제?
 }
