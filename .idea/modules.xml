@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Homeworks/Day10/Day10.iml" filepath="$PROJECT_DIR$/Homeworks/Day10/Day10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks/Day13/Day13.iml" filepath="$PROJECT_DIR$/Homeworks/Day13/Day13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks/Day14/Day14.iml" filepath="$PROJECT_DIR$/Homeworks/Day14/Day14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks/Day15.iml" filepath="$PROJECT_DIR$/Homeworks/Day15.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Day2/Day2.iml" filepath="$PROJECT_DIR$/Homeworks/Day2/Day2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Day3/Day3.iml" filepath="$PROJECT_DIR$/Homeworks/Day3/Day3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Day4/Day4.iml" filepath="$PROJECT_DIR$/Homeworks/Day4/Day4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Day5/Day5.iml" filepath="$PROJECT_DIR$/Homeworks/Day5/Day5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Day6/Day6.iml" filepath="$PROJECT_DIR$/Homeworks/Day6/Day6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Day7/Day7.iml" filepath="$PROJECT_DIR$/Homeworks/Day7/Day7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks/Day9/Day9.iml" filepath="$PROJECT_DIR$/Homeworks/Day9/Day9.iml" />
       <module fileurl="file://$PROJECT_DIR$/Homeworks/Homeworks.iml" filepath="$PROJECT_DIR$/Homeworks/Homeworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/JAVA-TIL.iml" filepath="$PROJECT_DIR$/JAVA-TIL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks/PairProgramming/PairProgramming.iml" filepath="$PROJECT_DIR$/Homeworks/PairProgramming/PairProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Homeworks/Project1/Project1.iml" filepath="$PROJECT_DIR$/Homeworks/Project1/Project1.iml" />
     </modules>
   </component>
 </project>
